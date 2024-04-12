@@ -1,1 +1,145 @@
-"{\r\n  \"name\": \"prudhvi\",\r\n  \"taxId\": \"837574-985\",\r\n  \"address\": [\r\n    {\r\n      \"line1\": \"2330 Chalet Dr Apt B\",\r\n      \"line2\": \"Near street 7\",\r\n      \"city\": \"Rochester Hills\",\r\n      \"state\": \"Andhra Pradesh\",\r\n      \"zip\": \"48309-2051\",\r\n      \"country\": \"India\",\r\n      \"lat\": 34.586994,\r\n      \"lon\": -134.586994,\r\n      \"type\": {\r\n        \"key\": \"1100\",\r\n        \"value\": \"Work\"\r\n      },\r\n      \"isPrimary\": true\r\n    }\r\n  ],\r\n  \"parent_account\": {\r\n    \"name\": \"ashley\",\r\n    \"id\": 627\r\n  },\r\n  \"status\": {\r\n    \"code\": {\r\n      \"key\": \"2200\",\r\n      \"value\": \"Created\"\r\n    },\r\n    \"notes\": \"Notes\",\r\n    \"description\": \"description\"\r\n  },\r\n  \"contact\": {\r\n    \"id\": 559\r\n  },\r\n  \"owner\": {\r\n    \"id\": 559\r\n  },\r\n  \"email\": [\r\n    {\r\n      \"email\": \"test@test.com\",\r\n      \"isPrimary\": true,\r\n      \"type\": {\r\n        \"key\": \"1060\",\r\n        \"value\": \"Main\"\r\n      }\r\n    }\r\n  ],\r\n  \"phone\": [\r\n    {\r\n      \"number\": \"9898787898\",\r\n      \"extension\": 541,\r\n      \"isPrimary\": true,\r\n      \"country\": {\r\n        \"value\": \"+1\",\r\n        \"key\": \"us\"\r\n      },\r\n      \"type\": {\r\n        \"key\": \"1070\",\r\n        \"value\": \"Main\"\r\n      }\r\n    }\r\n  ],\r\n  \"accountDistribution\": [\r\n    {\r\n      \"accountingSystem\": {\r\n        \"key\": \"71900\",\r\n        \"value\": \"Standard 15 days\"\r\n      },\r\n      \"externalIds\": [\r\n        {\r\n          \"type\": {\r\n            \"key\": \"1401\",\r\n            \"value\": \"Reference Number\"\r\n          },\r\n          \"value\": \"MR-111111\"\r\n        }\r\n      ]\r\n    }\r\n  ],\r\n  \"specialInstructions\": \"specialInstructions\",\r\n  \"billings\": [\r\n    {\r\n      \"toName\": null,\r\n      \"creditLimit\": 100000,\r\n      \"thirdParty\": true,\r\n      \"careof\": null,\r\n      \"payTerms\": {\r\n        \"key\": \"7100\",\r\n        \"daysToPay\": 15,\r\n        \"name\": \"Standard 15 days\",\r\n        \"category\": \"customer\"\r\n      },\r\n      \"address\": {\r\n        \"line1\": \"2330 Chalet Dr Apt B\",\r\n        \"line2\": \"Near street 7\",\r\n        \"city\": \"Rochester Hills\",\r\n        \"state\": \"MI\",\r\n        \"zip\": \"48309-2051\",\r\n        \"country\": \"us\",\r\n        \"lat\": 34.586994,\r\n        \"lon\": -134.586994\r\n      },\r\n      \"phone\": {\r\n        \"number\": \"9898787898\",\r\n        \"extension\": 541,\r\n        \"country\": {\r\n          \"value\": \"+1\",\r\n          \"key\": \"us\"\r\n        }\r\n      },\r\n      \"instructions\": null,\r\n      \"customerPaysUnloading\": true,\r\n      \"contact\": {\r\n        \"id\": 144\r\n      }\r\n    }\r\n  ],\r\n  \"commission\": [\r\n    {\r\n      \"user\": {\r\n        \"id\": 11,\r\n        \"name\": \"smith\"\r\n      },\r\n      \"commission\": 13\r\n    }\r\n  ],\r\n  \"groups\": [\r\n    {\r\n      \"id\": 4\r\n    }\r\n  ],\r\n  \"externalIds\": [\r\n    {\r\n      \"type\": {\r\n        \"key\": \"1401\",\r\n        \"value\": \"Reference Number\"\r\n      },\r\n      \"value\": \"MR-111111\"\r\n    }\r\n  ],\r\n  \"paysUnloading\": false,\r\n  \"autoInvoice\": false,\r\n  \"invoiceWithoutDocument\": false\r\n}"
+{
+  "name": "prudhvi",
+  "taxId": "837574-985",
+  "address": [
+    {
+      "line1": "2330 Chalet Dr Apt B",
+      "line2": "Near street 7",
+      "city": "Rochester Hills",
+      "state": "Andhra Pradesh",
+      "zip": "48309-2051",
+      "country": "india",
+      "lat": 34.586994,
+      "lon": -134.586994,
+      "type": {
+        "key": "1100",
+        "value": "Work"
+      },
+      "isPrimary": true
+    }
+  ],
+  "parent_account": {
+    "name": "ashley",
+    "id": 627
+  },
+  "status": {
+    "code": {
+      "key": "2200",
+      "value": "Created"
+    },
+    "notes": "Notes",
+    "description": "description"
+  },
+  "contact": {
+    "id": 559
+  },
+  "owner": {
+    "id": 559
+  },
+  "email": [
+    {
+      "email": "test@test.com",
+      "isPrimary": true,
+      "type": {
+        "key": "1060",
+        "value": "Main"
+      }
+    }
+  ],
+  "phone": [
+    {
+      "number": "9898787898",
+      "extension": 541,
+      "isPrimary": true,
+      "country": {
+        "value": "+1",
+        "key": "us"
+      },
+      "type": {
+        "key": "1070",
+        "value": "Main"
+      }
+    }
+  ],
+  "accountDistribution": [
+    {
+      "accountingSystem": {
+        "key": "71900",
+        "value": "Standard 15 days"
+      },
+      "externalIds": [
+        {
+          "type": {
+            "key": "1401",
+            "value": "Reference Number"
+          },
+          "value": "MR-111111"
+        }
+      ]
+    }
+  ],
+  "specialInstructions": "specialInstructions",
+  "billings": [
+    {
+      "toName": null,
+      "creditLimit": 100000,
+      "thirdParty": true,
+      "careof": null,
+      "payTerms": {
+        "key": "7100",
+        "daysToPay": 15,
+        "name": "Standard 15 days",
+        "category": "customer"
+      },
+      "address": {
+        "line1": "2330 Chalet Dr Apt B",
+        "line2": "Near street 7",
+        "city": "Rochester Hills",
+        "state": "MI",
+        "zip": "48309-2051",
+        "country": "us",
+        "lat": 34.586994,
+        "lon": -134.586994
+      },
+      "phone": {
+        "number": "9898787898",
+        "extension": 541,
+        "country": {
+          "value": "+1",
+          "key": "us"
+        }
+      },
+      "instructions": null,
+      "customerPaysUnloading": true,
+      "contact": {
+        "id": 144
+      }
+    }
+  ],
+  "commission": [
+    {
+      "user": {
+        "id": 11,
+        "name": "smith"
+      },
+      "commission": 13
+    }
+  ],
+  "groups": [
+    {
+      "id": 4
+    }
+  ],
+  "externalIds": [
+    {
+      "type": {
+        "key": "1401",
+        "value": "Reference Number"
+      },
+      "value": "MR-111111"
+    }
+  ],
+  "paysUnloading": false,
+  "autoInvoice": false,
+  "invoiceWithoutDocument": false
+}

@@ -1,0 +1,1878 @@
+{
+  "body": {
+    "getWorkersResponse": {
+      "requestReferences": {
+        "workerReference": [{
+          "id": [{
+            "base": "1fc19eff33df10736e14241151de1198",
+            "type": "WID"
+          }, {
+            "base": "141376",
+            "type": "Employee_ID"
+          }]
+        }]
+      },
+      "responseResults": {
+        "totalResults": {
+          "units": "1"
+        },
+        "totalPages": {
+          "units": "1"
+        },
+        "pageResults": {
+          "units": "1"
+        },
+        "page": {
+          "units": "1"
+        }
+      },
+      "responseData": {
+        "worker": [{
+          "workerReference": {
+            "id": [{
+              "base": "1fc19eff33df10736e14241151de1198",
+              "type": "WID"
+            }, {
+              "base": "141376",
+              "type": "Employee_ID"
+            }]
+          },
+          "workerDescription": "Edgar Rico",
+          "workerData": {
+            "workerId": "141376",
+            "userId": "edgarrico",
+            "personalData": {
+              "nameData": {
+                "legalNameData": {
+                  "nameDetailData": {
+                    "countryReference": {
+                      "id": [{
+                        "base": "bc33aa3152ec42d4995f4791a106ed09",
+                        "type": "WID"
+                      }, {
+                        "base": "US",
+                        "type": "ISO_3166-1_Alpha-2_Code"
+                      }, {
+                        "base": "USA",
+                        "type": "ISO_3166-1_Alpha-3_Code"
+                      }, {
+                        "base": "840",
+                        "type": "ISO_3166-1_Numeric-3_Code"
+                      }]
+                    },
+                    "firstName": "Edgar",
+                    "lastName": "Martinez Rico",
+                    "formattedName": "Edgar Martinez Rico",
+                    "reportingName": "Edgar Martinez Rico"
+                  }
+                },
+                "preferredNameData": {
+                  "nameDetailData": {
+                    "countryReference": {
+                      "id": [{
+                        "base": "bc33aa3152ec42d4995f4791a106ed09",
+                        "type": "WID"
+                      }, {
+                        "base": "US",
+                        "type": "ISO_3166-1_Alpha-2_Code"
+                      }, {
+                        "base": "USA",
+                        "type": "ISO_3166-1_Alpha-3_Code"
+                      }, {
+                        "base": "840",
+                        "type": "ISO_3166-1_Numeric-3_Code"
+                      }]
+                    },
+                    "firstName": "Edgar",
+                    "lastName": "Rico",
+                    "formattedName": "Edgar Rico",
+                    "reportingName": "Edgar Rico"
+                  }
+                }
+              },
+              "personalInformationData": [{
+                "personalInformationForCountryData": [{
+                  "countryReference": {
+                    "id": [{
+                      "base": "bc33aa3152ec42d4995f4791a106ed09",
+                      "type": "WID"
+                    }, {
+                      "base": "US",
+                      "type": "ISO_3166-1_Alpha-2_Code"
+                    }, {
+                      "base": "USA",
+                      "type": "ISO_3166-1_Alpha-3_Code"
+                    }, {
+                      "base": "840",
+                      "type": "ISO_3166-1_Numeric-3_Code"
+                    }]
+                  },
+                  "countryPersonalInformationData": [{
+                    "maritalStatusDate": {
+                      "year": 2012,
+                      "month": 12,
+                      "day": 8
+                    },
+                    "ethnicityReference": [{
+                      "id": [{
+                        "base": "ed889433ae5710b19ad426e0393b02f5",
+                        "type": "WID"
+                      }, {
+                        "base": "US_HISPANIC_OR_LATINO",
+                        "type": "Ethnicity_ID"
+                      }]
+                    }],
+                    "hispanicOrLatino": true,
+                    "hispanicOrLatinoVisualSurvey": false,
+                    "genderReference": {
+                      "id": [{
+                        "base": "ed889433ae5710b197a0a56833cb0243",
+                        "type": "WID"
+                      }, {
+                        "base": "MALE",
+                        "type": "Gender_Code"
+                      }]
+                    }
+                  }]
+                }],
+                "birthDate": {
+                  "year": 1983,
+                  "month": 7,
+                  "day": 8
+                },
+                "citizenshipStatusReference": [{
+                  "id": [{
+                    "base": "ed889433ae5710b19274c9cc0ae300ff",
+                    "type": "WID"
+                  }, {
+                    "base": "MX_CITIZEN",
+                    "type": "Citizenship_Status_Code"
+                  }]
+                }]
+              }],
+              "identificationData": {
+                "nationalId": [{
+                  "nationalIdReference": {
+                    "id": [{
+                      "base": "1fc19eff33df1073782b20e86720637a",
+                      "type": "WID"
+                    }]
+                  },
+                  "nationalIdData": {
+                    "id": "620838139",
+                    "idTypeReference": {
+                      "id": [{
+                        "base": "93636994cfe84825a1daaa933cbba7e7",
+                        "type": "WID"
+                      }, {
+                        "base": "USA-SSN",
+                        "type": "National_ID_Type_Code"
+                      }]
+                    },
+                    "countryReference": {
+                      "id": [{
+                        "base": "bc33aa3152ec42d4995f4791a106ed09",
+                        "type": "WID"
+                      }, {
+                        "base": "US",
+                        "type": "ISO_3166-1_Alpha-2_Code"
+                      }, {
+                        "base": "USA",
+                        "type": "ISO_3166-1_Alpha-3_Code"
+                      }, {
+                        "base": "840",
+                        "type": "ISO_3166-1_Numeric-3_Code"
+                      }]
+                    },
+                    "verificationDate": {
+                      "year": 2015,
+                      "month": 4,
+                      "day": 27
+                    },
+                    "verifiedByReference": {
+                      "id": [{
+                        "base": "1fc19eff33df10736e14241151de1198",
+                        "type": "WID"
+                      }, {
+                        "base": "141376",
+                        "type": "Employee_ID"
+                      }]
+                    }
+                  },
+                  "nationalIdSharedReference": {
+                    "id": [{
+                      "base": "1fc19eff33df10736f4b6439a22b2557",
+                      "type": "WID"
+                    }, {
+                      "base": "NATIONAL_IDENTIFIER_REFERENCE-3-95264",
+                      "type": "National_Identifier_Reference_ID"
+                    }]
+                  }
+                }],
+                "visaId": [{
+                  "visaIdReference": {
+                    "id": [{
+                      "base": "d06b0809c93e0113f0fe5d650504389e",
+                      "type": "WID"
+                    }]
+                  },
+                  "visaIdData": {
+                    "id": "N/A",
+                    "idTypeReference": {
+                      "id": [{
+                        "base": "86a24328b3481038b6f01b12b5a5298d",
+                        "type": "WID"
+                      }, {
+                        "base": "US_LPR",
+                        "type": "Visa_ID_Type_ID"
+                      }]
+                    },
+                    "countryReference": {
+                      "id": [{
+                        "base": "bc33aa3152ec42d4995f4791a106ed09",
+                        "type": "WID"
+                      }, {
+                        "base": "US",
+                        "type": "ISO_3166-1_Alpha-2_Code"
+                      }, {
+                        "base": "USA",
+                        "type": "ISO_3166-1_Alpha-3_Code"
+                      }, {
+                        "base": "840",
+                        "type": "ISO_3166-1_Numeric-3_Code"
+                      }]
+                    },
+                    "verificationDate": {
+                      "year": 2020,
+                      "month": 7,
+                      "day": 29
+                    },
+                    "verifiedByReference": {
+                      "id": [{
+                        "base": "5adc574581321061997c62d7599b0719",
+                        "type": "WID"
+                      }, {
+                        "base": "414533",
+                        "type": "Employee_ID"
+                      }]
+                    }
+                  },
+                  "visaIdSharedReference": {
+                    "id": [{
+                      "base": "d06b0809c93e011ecd045e650504399e",
+                      "type": "WID"
+                    }, {
+                      "base": "VISA_IDENTIFIER_REFERENCE-3-51791",
+                      "type": "Visa_Identifier_Reference_ID"
+                    }]
+                  }
+                }],
+                "customId": [{
+                  "customIdReference": {
+                    "id": [{
+                      "base": "49f79efd5cdc01013d45550cbb360001",
+                      "type": "WID"
+                    }]
+                  },
+                  "customIdData": {
+                    "id": "424293515",
+                    "idTypeReference": {
+                      "id": [{
+                        "base": "ed889433ae5710b1a26b2a610e933501",
+                        "type": "WID"
+                      }, {
+                        "base": "GHIRE_ATS_ID",
+                        "type": "Custom_ID_Type_ID"
+                      }]
+                    },
+                    "issuedDate": {
+                      "year": 2019,
+                      "month": 2,
+                      "day": 11
+                    }
+                  },
+                  "customIdSharedReference": {
+                    "id": [{
+                      "base": "400bb383619e01ba119f96330c23a98e",
+                      "type": "WID"
+                    }, {
+                      "base": "CUSTOM_IDENTIFIER_REFERENCE-3-16401613",
+                      "type": "Custom_Identifier_Reference_ID"
+                    }]
+                  }
+                }, {
+                  "customIdReference": {
+                    "id": [{
+                      "base": "49f79efd5cdc01013d45550cbb360002",
+                      "type": "WID"
+                    }]
+                  },
+                  "customIdData": {
+                    "id": "423495669",
+                    "idTypeReference": {
+                      "id": [{
+                        "base": "ed889433ae5710b1a26b3e58f703350c",
+                        "type": "WID"
+                      }, {
+                        "base": "GHIRE_APPLICATION_ID",
+                        "type": "Custom_ID_Type_ID"
+                      }]
+                    },
+                    "issuedDate": {
+                      "year": 2019,
+                      "month": 2,
+                      "day": 11
+                    }
+                  },
+                  "customIdSharedReference": {
+                    "id": [{
+                      "base": "400bb383619e01afdd2297330c23ab8e",
+                      "type": "WID"
+                    }, {
+                      "base": "CUSTOM_IDENTIFIER_REFERENCE-3-16401614",
+                      "type": "Custom_Identifier_Reference_ID"
+                    }]
+                  }
+                }, {
+                  "customIdReference": {
+                    "id": [{
+                      "base": "49f79efd5cdc01013d45550cbb360003",
+                      "type": "WID"
+                    }]
+                  },
+                  "customIdData": {
+                    "id": "438956596",
+                    "idTypeReference": {
+                      "id": [{
+                        "base": "ed889433ae5710b1a26b3e58f703350c",
+                        "type": "WID"
+                      }, {
+                        "base": "GHIRE_APPLICATION_ID",
+                        "type": "Custom_ID_Type_ID"
+                      }]
+                    },
+                    "issuedDate": {
+                      "year": 2020,
+                      "month": 11,
+                      "day": 23
+                    }
+                  },
+                  "customIdSharedReference": {
+                    "id": [{
+                      "base": "40e4acf620cd0173a42d075e43271352",
+                      "type": "WID"
+                    }, {
+                      "base": "CUSTOM_IDENTIFIER_REFERENCE-3-17091734",
+                      "type": "Custom_Identifier_Reference_ID"
+                    }]
+                  }
+                }, {
+                  "customIdReference": {
+                    "id": [{
+                      "base": "49f79efd5cdc01013d45550cbb360004",
+                      "type": "WID"
+                    }]
+                  },
+                  "customIdData": {
+                    "id": "436964940",
+                    "idTypeReference": {
+                      "id": [{
+                        "base": "ed889433ae5710b1a26b2a610e933501",
+                        "type": "WID"
+                      }, {
+                        "base": "GHIRE_ATS_ID",
+                        "type": "Custom_ID_Type_ID"
+                      }]
+                    },
+                    "issuedDate": {
+                      "year": 2020,
+                      "month": 11,
+                      "day": 23
+                    }
+                  },
+                  "customIdSharedReference": {
+                    "id": [{
+                      "base": "40e4acf620cd01fc4fdc065e43271152",
+                      "type": "WID"
+                    }, {
+                      "base": "CUSTOM_IDENTIFIER_REFERENCE-3-17091713",
+                      "type": "Custom_Identifier_Reference_ID"
+                    }]
+                  }
+                }, {
+                  "customIdReference": {
+                    "id": [{
+                      "base": "49f79efd5cdc01013d45550cbb360005",
+                      "type": "WID"
+                    }]
+                  },
+                  "customIdData": {
+                    "id": "416022763",
+                    "idTypeReference": {
+                      "id": [{
+                        "base": "ed889433ae5710b1a26b3e58f703350c",
+                        "type": "WID"
+                      }, {
+                        "base": "GHIRE_APPLICATION_ID",
+                        "type": "Custom_ID_Type_ID"
+                      }]
+                    },
+                    "issuedDate": {
+                      "year": 2018,
+                      "month": 2,
+                      "day": 12
+                    }
+                  },
+                  "customIdSharedReference": {
+                    "id": [{
+                      "base": "9a571bfe101d01c4572f3180ea8ce0dc",
+                      "type": "WID"
+                    }, {
+                      "base": "CUSTOM_IDENTIFIER_REFERENCE-3-14517399",
+                      "type": "Custom_Identifier_Reference_ID"
+                    }]
+                  }
+                }, {
+                  "customIdReference": {
+                    "id": [{
+                      "base": "49f79efd5cdc01013d45550cbb360006",
+                      "type": "WID"
+                    }]
+                  },
+                  "customIdData": {
+                    "id": "417165524",
+                    "idTypeReference": {
+                      "id": [{
+                        "base": "ed889433ae5710b1a26b2a610e933501",
+                        "type": "WID"
+                      }, {
+                        "base": "GHIRE_ATS_ID",
+                        "type": "Custom_ID_Type_ID"
+                      }]
+                    },
+                    "issuedDate": {
+                      "year": 2018,
+                      "month": 2,
+                      "day": 12
+                    }
+                  },
+                  "customIdSharedReference": {
+                    "id": [{
+                      "base": "9a571bfe101d01a8f0a53080ea8cdedc",
+                      "type": "WID"
+                    }, {
+                      "base": "CUSTOM_IDENTIFIER_REFERENCE-3-14517398",
+                      "type": "Custom_Identifier_Reference_ID"
+                    }]
+                  }
+                }, {
+                  "customIdReference": {
+                    "id": [{
+                      "base": "49f79efd5cdc01013d45550cbb360007",
+                      "type": "WID"
+                    }]
+                  },
+                  "customIdData": {
+                    "id": "455352615",
+                    "idTypeReference": {
+                      "id": [{
+                        "base": "ed889433ae5710b1a26b2a610e933501",
+                        "type": "WID"
+                      }, {
+                        "base": "GHIRE_ATS_ID",
+                        "type": "Custom_ID_Type_ID"
+                      }]
+                    },
+                    "issuedDate": {
+                      "year": 2022,
+                      "month": 6,
+                      "day": 1
+                    }
+                  },
+                  "customIdSharedReference": {
+                    "id": [{
+                      "base": "49f79efd5cdc01013d45550cbb360008",
+                      "type": "WID"
+                    }, {
+                      "base": "CUSTOM_IDENTIFIER_REFERENCE-3-17974914",
+                      "type": "Custom_Identifier_Reference_ID"
+                    }]
+                  }
+                }, {
+                  "customIdReference": {
+                    "id": [{
+                      "base": "49f79efd5cdc01013d4555a6f8910000",
+                      "type": "WID"
+                    }]
+                  },
+                  "customIdData": {
+                    "id": "455352374",
+                    "idTypeReference": {
+                      "id": [{
+                        "base": "ed889433ae5710b1a26b3e58f703350c",
+                        "type": "WID"
+                      }, {
+                        "base": "GHIRE_APPLICATION_ID",
+                        "type": "Custom_ID_Type_ID"
+                      }]
+                    },
+                    "issuedDate": {
+                      "year": 2022,
+                      "month": 6,
+                      "day": 1
+                    }
+                  },
+                  "customIdSharedReference": {
+                    "id": [{
+                      "base": "49f79efd5cdc01013d4555a6f8910001",
+                      "type": "WID"
+                    }, {
+                      "base": "CUSTOM_IDENTIFIER_REFERENCE-3-17974915",
+                      "type": "Custom_Identifier_Reference_ID"
+                    }]
+                  }
+                }]
+              },
+              "contactData": {
+                "addressData": [{
+                  "countryReference": {
+                    "id": [{
+                      "base": "bc33aa3152ec42d4995f4791a106ed09",
+                      "type": "WID"
+                    }, {
+                      "base": "US",
+                      "type": "ISO_3166-1_Alpha-2_Code"
+                    }, {
+                      "base": "USA",
+                      "type": "ISO_3166-1_Alpha-3_Code"
+                    }, {
+                      "base": "840",
+                      "type": "ISO_3166-1_Numeric-3_Code"
+                    }]
+                  },
+                  "lastModified": "2021-07-13T23:06:18.195Z",
+                  "addressLineData": [{
+                    "base": "-",
+                    "description": "Address Line 1",
+                    "type": "ADDRESS_LINE_1"
+                  }],
+                  "municipality": "-",
+                  "countryRegionReference": {
+                    "id": [{
+                      "base": "ec3d210e4240442e99a28fa70419aec5",
+                      "type": "WID"
+                    }, {
+                      "base": "USA-CA",
+                      "type": "Country_Region_ID"
+                    }, {
+                      "base": "CA",
+                      "type": "ISO_3166-2_Code"
+                    }, {
+                      "base": "US-CA",
+                      "type": "ISO_3166-2_Country-Region_Code"
+                    }]
+                  },
+                  "countryRegionDescription": "California",
+                  "postalCode": "94102",
+                  "usageData": [{
+                    "typeData": [{
+                      "typeReference": {
+                        "id": [{
+                          "base": "1f27f250dfaa4724ab1e1617174281e4",
+                          "type": "WID"
+                        }, {
+                          "base": "WORK",
+                          "type": "Communication_Usage_Type_ID"
+                        }]
+                      },
+                      "primary": true
+                    }],
+                    "public": true
+                  }],
+                  "numberOfDays": {
+                  },
+                  "addressReference": {
+                    "id": [{
+                      "base": "fc6a4bc8a4bc01f7967c6a522101e2c5",
+                      "type": "WID"
+                    }, {
+                      "base": "ADDRESS_REFERENCE-3-563413",
+                      "type": "Address_ID"
+                    }]
+                  },
+                  "addressId": "ADDRESS_REFERENCE-3-563413",
+                  "formattedAddress": "-\u0026#xa;-, CA 94102\u0026#xa;United States of America",
+                  "addressFormatType": "Basic",
+                  "defaultedBusinessSiteAddress": true,
+                  "effectiveDate": {
+                    "year": 2022,
+                    "month": 6,
+                    "day": 1
+                  }
+                }, {
+                  "countryReference": {
+                    "id": [{
+                      "base": "bc33aa3152ec42d4995f4791a106ed09",
+                      "type": "WID"
+                    }, {
+                      "base": "US",
+                      "type": "ISO_3166-1_Alpha-2_Code"
+                    }, {
+                      "base": "USA",
+                      "type": "ISO_3166-1_Alpha-3_Code"
+                    }, {
+                      "base": "840",
+                      "type": "ISO_3166-1_Numeric-3_Code"
+                    }]
+                  },
+                  "lastModified": "2022-06-10T04:43:45.581Z",
+                  "addressLineData": [{
+                    "base": "37422 Watersail Way",
+                    "description": "Address Line 1",
+                    "type": "ADDRESS_LINE_1"
+                  }],
+                  "municipality": "Newark",
+                  "countryRegionReference": {
+                    "id": [{
+                      "base": "ec3d210e4240442e99a28fa70419aec5",
+                      "type": "WID"
+                    }, {
+                      "base": "USA-CA",
+                      "type": "Country_Region_ID"
+                    }, {
+                      "base": "CA",
+                      "type": "ISO_3166-2_Code"
+                    }, {
+                      "base": "US-CA",
+                      "type": "ISO_3166-2_Country-Region_Code"
+                    }]
+                  },
+                  "countryRegionDescription": "California",
+                  "postalCode": "94560",
+                  "usageData": [{
+                    "typeData": [{
+                      "typeReference": {
+                        "id": [{
+                          "base": "836cf00ef5974ac08b786079866c946f",
+                          "type": "WID"
+                        }, {
+                          "base": "HOME",
+                          "type": "Communication_Usage_Type_ID"
+                        }]
+                      },
+                      "primary": true
+                    }],
+                    "useForReference": [{
+                      "id": [{
+                        "base": "9385649a0c4b4ddea7fb0d823c2f1bcd",
+                        "type": "WID"
+                      }, {
+                        "base": "MAILING",
+                        "type": "Communication_Usage_Behavior_ID"
+                      }]
+                    }],
+                    "useForTenantedReference": [{
+                      "id": [{
+                        "base": "ed889433ae5710b1902b152956b30042",
+                        "type": "WID"
+                      }, {
+                        "base": "MAILING",
+                        "type": "Communication_Usage_Behavior_Tenanted_ID"
+                      }]
+                    }],
+                    "public": false
+                  }],
+                  "numberOfDays": {
+                  },
+                  "addressReference": {
+                    "id": [{
+                      "base": "1fc19eff33df10736e138c69da971164",
+                      "type": "WID"
+                    }, {
+                      "base": "ADDRESS_REFERENCE-3-210261",
+                      "type": "Address_ID"
+                    }]
+                  },
+                  "addressId": "ADDRESS_REFERENCE-3-210261",
+                  "formattedAddress": "37422 Watersail Way\u0026#xa;Newark, CA 94560\u0026#xa;United States of America",
+                  "addressFormatType": "Basic",
+                  "defaultedBusinessSiteAddress": false,
+                  "effectiveDate": {
+                    "year": 2022,
+                    "month": 6,
+                    "day": 9
+                  }
+                }],
+                "phoneData": [{
+                  "countryIsoCode": "USA",
+                  "internationalPhoneCode": "1",
+                  "phoneNumber": "6505375472",
+                  "phoneDeviceTypeReference": {
+                    "id": [{
+                      "base": "ed889433ae5710b1912996a8fe330061",
+                      "type": "WID"
+                    }, {
+                      "base": "CELL_MOBILE",
+                      "type": "Phone_Device_Type_ID"
+                    }]
+                  },
+                  "usageData": [{
+                    "typeData": [{
+                      "typeReference": {
+                        "id": [{
+                          "base": "836cf00ef5974ac08b786079866c946f",
+                          "type": "WID"
+                        }, {
+                          "base": "HOME",
+                          "type": "Communication_Usage_Type_ID"
+                        }]
+                      },
+                      "primary": true
+                    }],
+                    "public": true
+                  }],
+                  "phoneReference": {
+                    "id": [{
+                      "base": "669ae9714781013cba9dac8d1588ddd5",
+                      "type": "WID"
+                    }, {
+                      "base": "PHONE_REFERENCE-3-378898",
+                      "type": "Phone_ID"
+                    }]
+                  },
+                  "id": "PHONE_REFERENCE-3-378898",
+                  "tenantFormattedPhone": "+1  6505375472",
+                  "internationalFormattedPhone": "+1 650-537-5472",
+                  "phoneNumberWithoutAreaCode": "6505375472",
+                  "nationalFormattedPhone": "(650) 537-5472",
+                  "e164FormattedPhone": "+16505375472",
+                  "workdayTraditionalFormattedPhone": "+1  6505375472"
+                }],
+                "emailAddressData": [{
+                  "emailAddress": "edgar.martinez.rico@gmail.com",
+                  "usageData": [{
+                    "typeData": [{
+                      "typeReference": {
+                        "id": [{
+                          "base": "836cf00ef5974ac08b786079866c946f",
+                          "type": "WID"
+                        }, {
+                          "base": "HOME",
+                          "type": "Communication_Usage_Type_ID"
+                        }]
+                      },
+                      "primary": true
+                    }],
+                    "public": false
+                  }],
+                  "emailReference": {
+                    "id": [{
+                      "base": "bb48c8febf1f01fa90077cd64c505fe4",
+                      "type": "WID"
+                    }, {
+                      "base": "EMAIL_REFERENCE-3-1118807",
+                      "type": "Email_ID"
+                    }]
+                  },
+                  "id": "EMAIL_REFERENCE-3-1118807"
+                }, {
+                  "emailAddress": "edgarrico@google.com",
+                  "usageData": [{
+                    "typeData": [{
+                      "typeReference": {
+                        "id": [{
+                          "base": "1f27f250dfaa4724ab1e1617174281e4",
+                          "type": "WID"
+                        }, {
+                          "base": "WORK",
+                          "type": "Communication_Usage_Type_ID"
+                        }]
+                      },
+                      "primary": true
+                    }],
+                    "public": true
+                  }],
+                  "emailReference": {
+                    "id": [{
+                      "base": "bb48c8febf1f01162fee7bd64c505ee4",
+                      "type": "WID"
+                    }, {
+                      "base": "EMAIL_REFERENCE-3-1118806",
+                      "type": "Email_ID"
+                    }]
+                  },
+                  "id": "EMAIL_REFERENCE-3-1118806"
+                }]
+              },
+              "tobaccoUse": false
+            },
+            "employmentData": {
+              "workerJobData": [{
+                "positionData": {
+                  "positionReference": {
+                    "id": [{
+                      "base": "1fc19eff33df10736e142427f9d2119d",
+                      "type": "WID"
+                    }, {
+                      "base": "Job-3-302963",
+                      "type": "Position_ID"
+                    }]
+                  },
+                  "positionId": "Job-3-302963",
+                  "positionTitle": "Software Engineer",
+                  "businessTitle": "ʕ•ᴥ•ʔ Engineer",
+                  "startDate": {
+                    "year": 2015,
+                    "month": 4,
+                    "day": 27
+                  },
+                  "workerTypeReference": {
+                    "id": [{
+                      "base": "ed889433ae5710b198f4658a0c930287",
+                      "type": "WID"
+                    }, {
+                      "base": "EMPLOYEE",
+                      "type": "Employee_Type_ID"
+                    }]
+                  },
+                  "positionTimeTypeReference": {
+                    "id": [{
+                      "base": "07d4e8c9f94810af55752f513be30042",
+                      "type": "WID"
+                    }, {
+                      "base": "Full_time",
+                      "type": "Position_Time_Type_ID"
+                    }]
+                  },
+                  "jobExempt": true,
+                  "scheduledWeeklyHours": {
+                    "units": "30"
+                  },
+                  "defaultWeeklyHours": {
+                    "units": "40"
+                  },
+                  "workingTimeValue": {
+                  },
+                  "fullTimeEquivalentPercentage": {
+                    "units": "75"
+                  },
+                  "specifyPaidFte": false,
+                  "paidFte": {
+                  },
+                  "specifyWorkingFte": false,
+                  "workingFte": {
+                  },
+                  "excludeFromHeadcount": false,
+                  "payRateTypeReference": {
+                    "id": [{
+                      "base": "ed889433ae5710b1e9529d57581b3907",
+                      "type": "WID"
+                    }, {
+                      "base": "ANNUAL",
+                      "type": "Pay_Rate_Type_ID"
+                    }]
+                  },
+                  "jobClassificationSummaryData": [{
+                    "jobClassificationReference": {
+                      "id": [{
+                        "base": "ed889433ae5710b1eebbba6c6dab88a5",
+                        "type": "WID"
+                      }, {
+                        "base": "US_PRO",
+                        "type": "Job_Classification_Reference_ID"
+                      }]
+                    },
+                    "jobGroupReference": {
+                      "id": [{
+                        "base": "ed889433ae5710b1eebbb9f4b92388a2",
+                        "type": "WID"
+                      }, {
+                        "base": "US_EEO-1",
+                        "type": "Job_Classification_Group_ID"
+                      }]
+                    }
+                  }],
+                  "workerCompensationCodeData": [{
+                    "workersCompensationCodeReference": {
+                      "id": [{
+                        "base": "ed889433ae5710b1ef0e2fd969e38927",
+                        "type": "WID"
+                      }, {
+                        "base": "8810",
+                        "type": "Workers_Compensation_ID"
+                      }]
+                    },
+                    "workersCompensationCode": "8810"
+                  }],
+                  "jobProfileSummaryData": {
+                    "jobProfileReference": {
+                      "id": [{
+                        "base": "ed889433ae5710b2818761dc63f3618b",
+                        "type": "WID"
+                      }, {
+                        "base": "3405",
+                        "type": "Job_Profile_ID"
+                      }]
+                    },
+                    "jobExempt": true,
+                    "managementLevelReference": {
+                      "id": [{
+                        "base": "ed889433ae5710b1eb877ea95dfb3958",
+                        "type": "WID"
+                      }, {
+                        "base": "ML_INDIVIDUAL_CONTRIBUTOR",
+                        "type": "Management_Level_ID"
+                      }]
+                    },
+                    "jobCategoryReference": {
+                      "id": [{
+                        "base": "ed889433ae5710b1ef4b93234e238930",
+                        "type": "WID"
+                      }, {
+                        "base": "COMPANY",
+                        "type": "Job_Category_ID"
+                      }]
+                    },
+                    "jobFamilyReference": [{
+                      "id": [{
+                        "base": "ed889433ae5710b27d8e9f1e88fb9289",
+                        "type": "WID"
+                      }, {
+                        "base": "ENG_SOFT",
+                        "type": "Job_Family_ID"
+                      }]
+                    }],
+                    "jobProfileName": "Senior Software Engineer",
+                    "workShiftRequired": false,
+                    "criticalJob": false
+                  },
+                  "businessSiteSummaryData": {
+                    "locationReference": {
+                      "id": [{
+                        "base": "fc6a4bc8a4bc013245226a522101dfc5",
+                        "type": "WID"
+                      }, {
+                        "base": "US-REMOTE-SFO",
+                        "type": "Location_ID"
+                      }]
+                    },
+                    "name": "US-REMOTE-SFO",
+                    "locationTypeReference": [{
+                      "id": [{
+                        "base": "ed889433ae5710b2311cd7d491138e37",
+                        "type": "WID"
+                      }, {
+                        "base": "REMOTE_LOCATION",
+                        "type": "Location_Type_ID"
+                      }]
+                    }],
+                    "localReference": {
+                      "id": [{
+                        "base": "d9e43b02446c11de98360015c5e6daf6",
+                        "type": "WID"
+                      }, {
+                        "base": "en_US",
+                        "type": "Locale_ID"
+                      }]
+                    },
+                    "timeProfileReference": {
+                      "id": [{
+                        "base": "ed889433ae5710b2323c421f69d38e42",
+                        "type": "WID"
+                      }, {
+                        "base": "STANDARD_HOURS_40",
+                        "type": "Time_Profile_ID"
+                      }]
+                    },
+                    "scheduledWeeklyHours": {
+                      "units": "40"
+                    },
+                    "addressData": [{
+                      "countryReference": {
+                        "id": [{
+                          "base": "bc33aa3152ec42d4995f4791a106ed09",
+                          "type": "WID"
+                        }, {
+                          "base": "US",
+                          "type": "ISO_3166-1_Alpha-2_Code"
+                        }, {
+                          "base": "USA",
+                          "type": "ISO_3166-1_Alpha-3_Code"
+                        }, {
+                          "base": "840",
+                          "type": "ISO_3166-1_Numeric-3_Code"
+                        }]
+                      },
+                      "lastModified": "2021-07-13T23:06:18.195Z",
+                      "addressLineData": [{
+                        "base": "-",
+                        "description": "Address Line 1",
+                        "type": "ADDRESS_LINE_1"
+                      }],
+                      "municipality": "-",
+                      "countryRegionReference": {
+                        "id": [{
+                          "base": "ec3d210e4240442e99a28fa70419aec5",
+                          "type": "WID"
+                        }, {
+                          "base": "USA-CA",
+                          "type": "Country_Region_ID"
+                        }, {
+                          "base": "CA",
+                          "type": "ISO_3166-2_Code"
+                        }, {
+                          "base": "US-CA",
+                          "type": "ISO_3166-2_Country-Region_Code"
+                        }]
+                      },
+                      "countryRegionDescription": "California",
+                      "postalCode": "94102",
+                      "usageData": [{
+                        "typeData": [{
+                          "typeReference": {
+                            "id": [{
+                              "base": "4fae289a7fe541b098ca9448e462ff6b",
+                              "type": "WID"
+                            }, {
+                              "base": "BUSINESS",
+                              "type": "Communication_Usage_Type_ID"
+                            }]
+                          },
+                          "primary": true
+                        }],
+                        "public": true
+                      }],
+                      "numberOfDays": {
+                      },
+                      "addressReference": {
+                        "id": [{
+                          "base": "fc6a4bc8a4bc01f7967c6a522101e2c5",
+                          "type": "WID"
+                        }, {
+                          "base": "ADDRESS_REFERENCE-3-563413",
+                          "type": "Address_ID"
+                        }]
+                      },
+                      "addressId": "ADDRESS_REFERENCE-3-563413",
+                      "formattedAddress": "-\u0026#xa;-, CA 94102\u0026#xa;United States of America",
+                      "addressFormatType": "Basic",
+                      "defaultedBusinessSiteAddress": false,
+                      "effectiveDate": {
+                        "year": 2021,
+                        "month": 7,
+                        "day": 13
+                      }
+                    }]
+                  },
+                  "payrollInterfaceProcessingData": {
+                    "frequencyReference": {
+                      "id": [{
+                        "base": "07d4e8c9f94810af55752f61ca2b0046",
+                        "type": "WID"
+                      }, {
+                        "base": "BI_WEEKLY",
+                        "type": "Frequency_ID"
+                      }]
+                    }
+                  },
+                  "managerAsOfLastDetectedManagerChangeReference": [{
+                    "id": [{
+                      "base": "00f60bacd7c001198a65c15b75103da6",
+                      "type": "WID"
+                    }, {
+                      "base": "701141",
+                      "type": "Employee_ID"
+                    }]
+                  }],
+                  "effectiveDate": {
+                    "year": 2024,
+                    "month": 2,
+                    "day": 9
+                  }
+                },
+                "primaryJob": true
+              }],
+              "workerStatusData": {
+                "active": true,
+                "activeStatusDate": {
+                  "year": 2015,
+                  "month": 4,
+                  "day": 27
+                },
+                "hireDate": {
+                  "year": 2015,
+                  "month": 4,
+                  "day": 27
+                },
+                "originalHireDate": {
+                  "year": 2015,
+                  "month": 4,
+                  "day": 27
+                },
+                "hireReasonReference": {
+                  "id": [{
+                    "base": "ed889433ae5710b1dfecee340bb33636",
+                    "type": "WID"
+                  }, {
+                    "base": "HIRE_EMPLOYEE_CONVERT_CONVERT_CONTINGENT_WORKER",
+                    "type": "Event_Classification_Subcategory_ID"
+                  }, {
+                    "base": "HIRE_EMPLOYEE_CONVERT_CONVERT_CONTINGENT_WORKER",
+                    "type": "General_Event_Subcategory_ID"
+                  }]
+                },
+                "continuousServiceDate": {
+                  "year": 2015,
+                  "month": 4,
+                  "day": 27
+                },
+                "firstDayOfWork": {
+                  "year": 2015,
+                  "month": 4,
+                  "day": 27
+                },
+                "retired": false,
+                "seniorityDate": {
+                  "year": 2015,
+                  "month": 4,
+                  "day": 27
+                },
+                "benefitsServiceDate": {
+                  "year": 2015,
+                  "month": 4,
+                  "day": 27
+                },
+                "daysUnemployed": {
+                },
+                "monthsContinuousPriorEmployment": {
+                },
+                "terminated": false,
+                "regrettableTermination": false,
+                "hireRescinded": false,
+                "notReturning": false,
+                "returnUnknown": false,
+                "leaveStatusData": [{
+                  "leaveRequestEventReference": {
+                    "id": [{
+                      "base": "ed7360f35e4a010115b635d813f70000",
+                      "type": "WID"
+                    }, {
+                      "base": "LEAVE_REQUEST_EVENT-3-287752",
+                      "type": "Request_Leave_of_Absence_ID"
+                    }]
+                  },
+                  "leaveRequestDescription": "Leave Request: Edgar Rico (141376)",
+                  "leaveReturnEventReference": {
+                    "id": [{
+                      "base": "e57980a6b93601019523319abdca0000",
+                      "type": "WID"
+                    }]
+                  },
+                  "onLeave": false,
+                  "leaveStartDate": {
+                    "year": 2021,
+                    "month": 12,
+                    "day": 6
+                  },
+                  "estimatedLeaveEndDate": {
+                    "year": 2022,
+                    "month": 1,
+                    "day": 30
+                  },
+                  "leaveEndDate": {
+                    "year": 2022,
+                    "month": 1,
+                    "day": 16
+                  },
+                  "leaveLastDayOfWork": {
+                    "year": 2021,
+                    "month": 12,
+                    "day": 5
+                  },
+                  "leaveOfAbsenceTypeReference": {
+                    "id": [{
+                      "base": "74688b782d7410491b137e0eab535c9a",
+                      "type": "WID"
+                    }, {
+                      "base": "LOAT_US_BABY_BONDING_LEAVE",
+                      "type": "Event_Classification_Subcategory_ID"
+                    }, {
+                      "base": "LOAT_US_BABY_BONDING_LEAVE",
+                      "type": "Leave_of_Absence_Type_ID"
+                    }]
+                  },
+                  "benefitsEffect": false,
+                  "payrollEffect": true,
+                  "paidTimeOffAccrualEffect": false,
+                  "continuousServiceAccrualEffect": false,
+                  "stockVestingEffect": false,
+                  "leaveTypeReasonReference": {
+                    "id": [{
+                      "base": "74688b782d7410491b137eb84f365c9c",
+                      "type": "WID"
+                    }, {
+                      "base": "LR_US_PC_Care_For_Newborn",
+                      "type": "Leave_Reason_ID"
+                    }]
+                  },
+                  "leaveRequestAdditionalFields": {
+                    "childSBirthDate": {
+                      "year": 2021,
+                      "month": 11,
+                      "day": 30
+                    }
+                  }
+                }, {
+                  "leaveRequestEventReference": {
+                    "id": [{
+                      "base": "ed7360f35e4a010115be334f05d70000",
+                      "type": "WID"
+                    }, {
+                      "base": "LEAVE_REQUEST_EVENT-3-287753",
+                      "type": "Request_Leave_of_Absence_ID"
+                    }]
+                  },
+                  "leaveRequestDescription": "Leave Request: Edgar Rico (141376)",
+                  "leaveReturnEventReference": {
+                    "id": [{
+                      "base": "a604e3b636930101ffcc035861990000",
+                      "type": "WID"
+                    }]
+                  },
+                  "onLeave": false,
+                  "leaveStartDate": {
+                    "year": 2022,
+                    "month": 1,
+                    "day": 31
+                  },
+                  "estimatedLeaveEndDate": {
+                    "year": 2022,
+                    "month": 2,
+                    "day": 4
+                  },
+                  "leaveEndDate": {
+                    "year": 2022,
+                    "month": 2,
+                    "day": 4
+                  },
+                  "leaveLastDayOfWork": {
+                    "year": 2022,
+                    "month": 1,
+                    "day": 30
+                  },
+                  "leaveOfAbsenceTypeReference": {
+                    "id": [{
+                      "base": "74688b782d7410491ccb1af28cb660e7",
+                      "type": "WID"
+                    }, {
+                      "base": "LOAT_US_MAKE_UP_HOLIDAY_2015",
+                      "type": "Event_Classification_Subcategory_ID"
+                    }, {
+                      "base": "LOAT_US_MAKE_UP_HOLIDAY_2015",
+                      "type": "Leave_of_Absence_Type_ID"
+                    }]
+                  },
+                  "benefitsEffect": false,
+                  "payrollEffect": true,
+                  "paidTimeOffAccrualEffect": false,
+                  "continuousServiceAccrualEffect": false,
+                  "stockVestingEffect": false,
+                  "leaveRequestAdditionalFields": {
+                  }
+                }, {
+                  "leaveRequestEventReference": {
+                    "id": [{
+                      "base": "02595df51c031000b5edbf257dc40000",
+                      "type": "WID"
+                    }, {
+                      "base": "LEAVE_REQUEST_EVENT-3-330301",
+                      "type": "Request_Leave_of_Absence_ID"
+                    }]
+                  },
+                  "leaveRequestDescription": "Leave Request: Edgar Rico (141376)",
+                  "leaveReturnEventReference": {
+                    "id": [{
+                      "base": "85a29cf877b010019d60cba810a70000",
+                      "type": "WID"
+                    }]
+                  },
+                  "onLeave": false,
+                  "leaveStartDate": {
+                    "year": 2022,
+                    "month": 9,
+                    "day": 2
+                  },
+                  "estimatedLeaveEndDate": {
+                    "year": 2022,
+                    "month": 9,
+                    "day": 6
+                  },
+                  "leaveEndDate": {
+                    "year": 2022,
+                    "month": 9,
+                    "day": 6
+                  },
+                  "leaveLastDayOfWork": {
+                    "year": 2022,
+                    "month": 9,
+                    "day": 1
+                  },
+                  "leaveOfAbsenceTypeReference": {
+                    "id": [{
+                      "base": "74688b782d7410491b137e0eab535c9a",
+                      "type": "WID"
+                    }, {
+                      "base": "LOAT_US_BABY_BONDING_LEAVE",
+                      "type": "Event_Classification_Subcategory_ID"
+                    }, {
+                      "base": "LOAT_US_BABY_BONDING_LEAVE",
+                      "type": "Leave_of_Absence_Type_ID"
+                    }]
+                  },
+                  "benefitsEffect": false,
+                  "payrollEffect": true,
+                  "paidTimeOffAccrualEffect": false,
+                  "continuousServiceAccrualEffect": false,
+                  "stockVestingEffect": false,
+                  "leaveTypeReasonReference": {
+                    "id": [{
+                      "base": "74688b782d7410491b137eb84f365c9c",
+                      "type": "WID"
+                    }, {
+                      "base": "LR_US_PC_Care_For_Newborn",
+                      "type": "Leave_Reason_ID"
+                    }]
+                  },
+                  "leaveRequestAdditionalFields": {
+                    "childSBirthDate": {
+                      "year": 2021,
+                      "month": 11,
+                      "day": 30
+                    }
+                  }
+                }, {
+                  "leaveRequestEventReference": {
+                    "id": [{
+                      "base": "02595df51c031000b5f82886b4440000",
+                      "type": "WID"
+                    }, {
+                      "base": "LEAVE_REQUEST_EVENT-3-330302",
+                      "type": "Request_Leave_of_Absence_ID"
+                    }]
+                  },
+                  "leaveRequestDescription": "Leave Request: Edgar Rico (141376)",
+                  "leaveReturnEventReference": {
+                    "id": [{
+                      "base": "5df09522f93310019ce1ceae22d10000",
+                      "type": "WID"
+                    }]
+                  },
+                  "onLeave": false,
+                  "leaveStartDate": {
+                    "year": 2022,
+                    "month": 11,
+                    "day": 14
+                  },
+                  "estimatedLeaveEndDate": {
+                    "year": 2022,
+                    "month": 11,
+                    "day": 29
+                  },
+                  "leaveEndDate": {
+                    "year": 2022,
+                    "month": 11,
+                    "day": 29
+                  },
+                  "leaveLastDayOfWork": {
+                    "year": 2022,
+                    "month": 11,
+                    "day": 13
+                  },
+                  "leaveOfAbsenceTypeReference": {
+                    "id": [{
+                      "base": "74688b782d7410491b137e0eab535c9a",
+                      "type": "WID"
+                    }, {
+                      "base": "LOAT_US_BABY_BONDING_LEAVE",
+                      "type": "Event_Classification_Subcategory_ID"
+                    }, {
+                      "base": "LOAT_US_BABY_BONDING_LEAVE",
+                      "type": "Leave_of_Absence_Type_ID"
+                    }]
+                  },
+                  "benefitsEffect": false,
+                  "payrollEffect": true,
+                  "paidTimeOffAccrualEffect": false,
+                  "continuousServiceAccrualEffect": false,
+                  "stockVestingEffect": false,
+                  "leaveTypeReasonReference": {
+                    "id": [{
+                      "base": "74688b782d7410491b137eb84f365c9c",
+                      "type": "WID"
+                    }, {
+                      "base": "LR_US_PC_Care_For_Newborn",
+                      "type": "Leave_Reason_ID"
+                    }]
+                  },
+                  "leaveRequestAdditionalFields": {
+                    "childSBirthDate": {
+                      "year": 2021,
+                      "month": 11,
+                      "day": 30
+                    }
+                  }
+                }, {
+                  "leaveRequestEventReference": {
+                    "id": [{
+                      "base": "2e02166ebd461000b5f12d7282200000",
+                      "type": "WID"
+                    }, {
+                      "base": "LEAVE_REQUEST_EVENT-3-330311",
+                      "type": "Request_Leave_of_Absence_ID"
+                    }]
+                  },
+                  "leaveRequestDescription": "Leave Request: Edgar Rico (141376)",
+                  "leaveReturnEventReference": {
+                    "id": [{
+                      "base": "a2c0b65dc9a410019d633a0ce8430000",
+                      "type": "WID"
+                    }]
+                  },
+                  "onLeave": false,
+                  "leaveStartDate": {
+                    "year": 2022,
+                    "month": 9,
+                    "day": 7
+                  },
+                  "estimatedLeaveEndDate": {
+                    "year": 2022,
+                    "month": 9,
+                    "day": 7
+                  },
+                  "leaveEndDate": {
+                    "year": 2022,
+                    "month": 9,
+                    "day": 7
+                  },
+                  "leaveLastDayOfWork": {
+                    "year": 2022,
+                    "month": 9,
+                    "day": 6
+                  },
+                  "leaveOfAbsenceTypeReference": {
+                    "id": [{
+                      "base": "74688b782d7410491ccb1af28cb660e7",
+                      "type": "WID"
+                    }, {
+                      "base": "LOAT_US_MAKE_UP_HOLIDAY_2015",
+                      "type": "Event_Classification_Subcategory_ID"
+                    }, {
+                      "base": "LOAT_US_MAKE_UP_HOLIDAY_2015",
+                      "type": "Leave_of_Absence_Type_ID"
+                    }]
+                  },
+                  "benefitsEffect": false,
+                  "payrollEffect": true,
+                  "paidTimeOffAccrualEffect": false,
+                  "continuousServiceAccrualEffect": false,
+                  "stockVestingEffect": false,
+                  "leaveRequestAdditionalFields": {
+                  }
+                }, {
+                  "leaveRequestEventReference": {
+                    "id": [{
+                      "base": "02595df51c031000b5fcfef3d9390000",
+                      "type": "WID"
+                    }, {
+                      "base": "LEAVE_REQUEST_EVENT-3-330313",
+                      "type": "Request_Leave_of_Absence_ID"
+                    }]
+                  },
+                  "leaveRequestDescription": "Leave Request: Edgar Rico (141376)",
+                  "leaveReturnEventReference": {
+                    "id": [{
+                      "base": "f2391b50332510019ceba24cbb890000",
+                      "type": "WID"
+                    }]
+                  },
+                  "onLeave": false,
+                  "leaveStartDate": {
+                    "year": 2022,
+                    "month": 11,
+                    "day": 30
+                  },
+                  "estimatedLeaveEndDate": {
+                    "year": 2022,
+                    "month": 12,
+                    "day": 1
+                  },
+                  "leaveEndDate": {
+                    "year": 2022,
+                    "month": 12,
+                    "day": 1
+                  },
+                  "leaveLastDayOfWork": {
+                    "year": 2022,
+                    "month": 11,
+                    "day": 29
+                  },
+                  "leaveOfAbsenceTypeReference": {
+                    "id": [{
+                      "base": "74688b782d7410491ccb1af28cb660e7",
+                      "type": "WID"
+                    }, {
+                      "base": "LOAT_US_MAKE_UP_HOLIDAY_2015",
+                      "type": "Event_Classification_Subcategory_ID"
+                    }, {
+                      "base": "LOAT_US_MAKE_UP_HOLIDAY_2015",
+                      "type": "Leave_of_Absence_Type_ID"
+                    }]
+                  },
+                  "benefitsEffect": false,
+                  "payrollEffect": true,
+                  "paidTimeOffAccrualEffect": false,
+                  "continuousServiceAccrualEffect": false,
+                  "stockVestingEffect": false,
+                  "leaveRequestAdditionalFields": {
+                  }
+                }, {
+                  "leaveRequestEventReference": {
+                    "id": [{
+                      "base": "b4d1b4d5940910012d4973f7319e0000",
+                      "type": "WID"
+                    }, {
+                      "base": "LEAVE_REQUEST_EVENT-6-427047",
+                      "type": "Request_Leave_of_Absence_ID"
+                    }]
+                  },
+                  "leaveRequestDescription": "Leave Request: Edgar Rico (141376)",
+                  "onLeave": true,
+                  "leaveStartDate": {
+                    "year": 2024,
+                    "month": 2,
+                    "day": 26
+                  },
+                  "estimatedLeaveEndDate": {
+                    "year": 2024,
+                    "month": 3,
+                    "day": 8
+                  },
+                  "leaveLastDayOfWork": {
+                    "year": 2024,
+                    "month": 2,
+                    "day": 25
+                  },
+                  "leaveOfAbsenceTypeReference": {
+                    "id": [{
+                      "base": "74688b782d7410491a506d0127e55adb",
+                      "type": "WID"
+                    }, {
+                      "base": "LOAT_US_ADMINISTRATIVE_LEAVE_2015",
+                      "type": "Event_Classification_Subcategory_ID"
+                    }, {
+                      "base": "LOAT_US_ADMINISTRATIVE_LEAVE_2015",
+                      "type": "Leave_of_Absence_Type_ID"
+                    }]
+                  },
+                  "benefitsEffect": false,
+                  "payrollEffect": true,
+                  "paidTimeOffAccrualEffect": false,
+                  "continuousServiceAccrualEffect": false,
+                  "stockVestingEffect": false
+                }],
+                "rehire": false
+              },
+              "internationalAssignmentSummaryData": {
+                "hasInternationalAssignment": false
+              }
+            },
+            "compensationData": {
+              "compensationEffectiveDate": {
+                "year": 2024,
+                "month": 2,
+                "day": 27
+              },
+              "reasonReference": {
+                "id": [{
+                  "base": "ed889433ae5710b1dfecf083c0433638",
+                  "type": "WID"
+                }, {
+                  "base": "RCC_COMPENSATION_ADJUSTMENT",
+                  "type": "Event_Classification_Subcategory_ID"
+                }, {
+                  "base": "RCC_COMPENSATION_ADJUSTMENT",
+                  "type": "General_Event_Subcategory_ID"
+                }]
+              },
+              "compensationGuidelinesData": [{
+                "compensationPackageReference": {
+                  "id": [{
+                    "base": "ffbaa2b3712b10b423c6f041705b637c",
+                    "type": "WID"
+                  }, {
+                    "base": "GOOGLE_COMP_PACKAGE",
+                    "type": "Compensation_Package_ID"
+                  }]
+                },
+                "compensationGradeReference": {
+                  "id": [{
+                    "base": "ed889433ae5710b1f728cbab430b8933",
+                    "type": "WID"
+                  }, {
+                    "base": "CG_GOOGLE_GRADE",
+                    "type": "Compensation_Grade_ID"
+                  }]
+                },
+                "compensationGradeProfileReference": {
+                  "id": [{
+                    "base": "9592c03b772f1053d78a06788a88e285",
+                    "type": "WID"
+                  }, {
+                    "base": "GP_COMP_REGION_US_PREMIUM_PLUS",
+                    "type": "Compensation_Grade_Profile_ID"
+                  }]
+                }
+              }],
+              "salaryAndHourlyData": [{
+                "compensationPlanReference": {
+                  "id": [{
+                    "base": "ffbaa2b3712b10b3d1e93ab54ae3297d",
+                    "type": "WID"
+                  }, {
+                    "base": "CP_SALARY_PLAN",
+                    "type": "Compensation_Plan_ID"
+                  }]
+                },
+                "compensationElementReference": {
+                  "id": [{
+                    "base": "ed889433ae5710b1e5256859efab3772",
+                    "type": "WID"
+                  }, {
+                    "base": "CE_SALARY_PLAN",
+                    "type": "Compensation_Element_ID"
+                  }]
+                },
+                "amount": {
+                  "units": "217000"
+                },
+                "currencyReference": {
+                  "id": [{
+                    "base": "9e996ffdd3e14da0ba7275d5400bafd4",
+                    "type": "WID"
+                  }, {
+                    "base": "USD",
+                    "type": "Currency_ID"
+                  }, {
+                    "base": "840",
+                    "type": "Currency_Numeric_Code"
+                  }]
+                },
+                "frequencyReference": {
+                  "id": [{
+                    "base": "07d4e8c9f94810af55752f550c730043",
+                    "type": "WID"
+                  }, {
+                    "base": "ANNUAL",
+                    "type": "Frequency_ID"
+                  }]
+                },
+                "assignmentEffectiveDate": {
+                  "year": 2024,
+                  "month": 2,
+                  "day": 27
+                }
+              }],
+              "bonusPlanData": [{
+                "compensationPlanReference": {
+                  "id": [{
+                    "base": "ffbaa2b3712b10b3e8fd5060cfdb2cf2",
+                    "type": "WID"
+                  }, {
+                    "base": "CP_COMPANY_BONUS",
+                    "type": "Compensation_Plan_ID"
+                  }]
+                },
+                "compensationElementReference": {
+                  "id": [{
+                    "base": "ed889433ae5710b1e524c6dd0e0b3718",
+                    "type": "WID"
+                  }, {
+                    "base": "CE_COMPANY_BONUS",
+                    "type": "Compensation_Element_ID"
+                  }]
+                },
+                "individualTargetAmount": {
+                },
+                "defaultTargetAmount": {
+                },
+                "individualTargetPercent": {
+                },
+                "defaultTargetPercent": {
+                  "nanos": 150000000
+                },
+                "guaranteedMinimum": false,
+                "currencyReference": {
+                  "id": [{
+                    "base": "9e996ffdd3e14da0ba7275d5400bafd4",
+                    "type": "WID"
+                  }, {
+                    "base": "USD",
+                    "type": "Currency_ID"
+                  }, {
+                    "base": "840",
+                    "type": "Currency_Numeric_Code"
+                  }]
+                },
+                "frequencyReference": {
+                  "id": [{
+                    "base": "07d4e8c9f94810af55752f550c730043",
+                    "type": "WID"
+                  }, {
+                    "base": "ANNUAL",
+                    "type": "Frequency_ID"
+                  }]
+                },
+                "percentAssigned": {
+                  "units": "1"
+                },
+                "assignmentEffectiveDate": {
+                  "year": 2015,
+                  "month": 4,
+                  "day": 27
+                }
+              }],
+              "employeeCompensationSummaryData": {
+                "employeeCompensationSummaryData": {
+                  "totalBasePay": {
+                    "units": "217000"
+                  },
+                  "totalSalaryAndAllowances": {
+                    "units": "217000"
+                  },
+                  "primaryCompensationBasis": {
+                  },
+                  "currencyReference": {
+                    "id": [{
+                      "base": "9e996ffdd3e14da0ba7275d5400bafd4",
+                      "type": "WID"
+                    }, {
+                      "base": "USD",
+                      "type": "Currency_ID"
+                    }, {
+                      "base": "840",
+                      "type": "Currency_Numeric_Code"
+                    }]
+                  },
+                  "frequencyReference": {
+                    "id": [{
+                      "base": "07d4e8c9f94810af55752f550c730043",
+                      "type": "WID"
+                    }, {
+                      "base": "ANNUAL",
+                      "type": "Frequency_ID"
+                    }]
+                  }
+                },
+                "annualizedSummaryData": {
+                  "totalBasePay": {
+                    "units": "217000"
+                  },
+                  "totalSalaryAndAllowances": {
+                    "units": "217000"
+                  },
+                  "primaryCompensationBasis": {
+                  },
+                  "currencyReference": {
+                    "id": [{
+                      "base": "9e996ffdd3e14da0ba7275d5400bafd4",
+                      "type": "WID"
+                    }, {
+                      "base": "USD",
+                      "type": "Currency_ID"
+                    }, {
+                      "base": "840",
+                      "type": "Currency_Numeric_Code"
+                    }]
+                  },
+                  "frequencyReference": {
+                    "id": [{
+                      "base": "07d4e8c9f94810af55752f550c730043",
+                      "type": "WID"
+                    }, {
+                      "base": "ANNUAL",
+                      "type": "Frequency_ID"
+                    }]
+                  }
+                },
+                "summaryDataInPayGroupFrequency": {
+                  "totalBasePay": {
+                    "units": "8346",
+                    "nanos": 150000000
+                  },
+                  "totalSalaryAndAllowances": {
+                    "units": "8346",
+                    "nanos": 150000000
+                  },
+                  "primaryCompensationBasis": {
+                  },
+                  "currencyReference": {
+                    "id": [{
+                      "base": "9e996ffdd3e14da0ba7275d5400bafd4",
+                      "type": "WID"
+                    }, {
+                      "base": "USD",
+                      "type": "Currency_ID"
+                    }, {
+                      "base": "840",
+                      "type": "Currency_Numeric_Code"
+                    }]
+                  },
+                  "frequencyReference": {
+                    "id": [{
+                      "base": "07d4e8c9f94810af55752f61ca2b0046",
+                      "type": "WID"
+                    }, {
+                      "base": "BI_WEEKLY",
+                      "type": "Frequency_ID"
+                    }]
+                  }
+                },
+                "annualizedInReportingCurrencySummaryData": {
+                  "totalBasePay": {
+                    "units": "217000"
+                  },
+                  "totalSalaryAndAllowances": {
+                    "units": "217000"
+                  },
+                  "primaryCompensationBasis": {
+                  },
+                  "currencyReference": {
+                    "id": [{
+                      "base": "9e996ffdd3e14da0ba7275d5400bafd4",
+                      "type": "WID"
+                    }, {
+                      "base": "USD",
+                      "type": "Currency_ID"
+                    }, {
+                      "base": "840",
+                      "type": "Currency_Numeric_Code"
+                    }]
+                  },
+                  "frequencyReference": {
+                    "id": [{
+                      "base": "07d4e8c9f94810af55752f550c730043",
+                      "type": "WID"
+                    }, {
+                      "base": "ANNUAL",
+                      "type": "Frequency_ID"
+                    }]
+                  }
+                }
+              }
+            }
+          }
+        }]
+      }
+    }
+  }
+}
